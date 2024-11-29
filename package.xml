@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no" ?>
+<package format="1" xmlns="https://wiki.freecad.org/Package_Metadata">
+
+  <name>CfdOF</name>
+
+  <description>Computational Fluid Dynamics (CFD) for FreeCAD based on OpenFOAM</description>
+
+  <version>2024.9.17</version>
+
+  <date>2024-09-17</date>
+
+  <maintainer email="oliveroxtoby@gmail.com">Oliver Oxtoby</maintainer>
+
+  <license file="LICENSE">LGPL-2.0-or-later</license>
+
+  <freecadmin>0.20.0</freecadmin>
+
+  <url branch="linuxguy-remote-processing" type="repository">https://github.com/jaheyns/CfdOF</url>
+
+  <url type="documentation">https://github.com/jaheyns/CfdOF/README.md</url>
+
+  <icon>Gui/Icons/cfd.svg</icon>
+
+  <content>
+    <workbench>
+      <depend optional="False" type="automatic">matplotlib</depend>
+      <icon>Gui/Icons/cfd.svg</icon>
+      <classname>CfdOFWorkbench</classname>
+      <subdirectory>./</subdirectory>
+    </workbench>
+  </content>
+
+</package>
